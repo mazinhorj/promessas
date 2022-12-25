@@ -1,0 +1,8 @@
+.versiculos {
+  background-color: transparent;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
