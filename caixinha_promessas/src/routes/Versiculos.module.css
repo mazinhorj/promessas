@@ -2,7 +2,13 @@
   background-color: transparent;
 }
 
+.versiculos h1, .versiculos h2 {
+  font-size: 2rem;
+}
+
 .btns {
+  margin-top: 1rem;
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }

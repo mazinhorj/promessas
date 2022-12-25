@@ -1,8 +1,7 @@
-.entrar_btn {
-  position: absolute;
-  top: 93%;
+.btn_link {
   padding: .4rem;
-  background-color: #3d0808;;
+  background-color: #3d0808;
+  width: 120px;
   color: goldenrod;
   border: 2px solid goldenrod;
   border-radius: 32px;
@@ -12,18 +11,19 @@
   opacity: .7;
 }
 
-.entrar_btn:hover {
+.btn_link:hover {
   transition: .4s;
   opacity: 1;
 }
 
-.entrar_btn svg {
+.btn_link svg {
   font-size: 1.2rem;
 }
 
-.entrar_btn a {
+.btn_link a {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .4rem;
   text-decoration: none;
   color: goldenrod;

@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom';
 const EntrarBtn = () => {
   return (
     <>
-      <button className={classes.entrar_btn}>
+      <button type='submit' className={classes.entrar_btn}>
         <Link to={"/versiculos"}>
-          {" "}
           Abrir <BsKeyFill />
         </Link>
       </button>
