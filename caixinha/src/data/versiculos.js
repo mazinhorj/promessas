@@ -100,7 +100,7 @@ const data = [
 				index: 20,
 				versiculo: "E criou Deus o homem à sua imagem; à imagem de Deus o criou; macho e fêmea os criou.",
 				fonte: "Gênesis 1:27",
-			},
+			}
 			// {
 			// 	index: 21,
 			// 	versiculo: "",

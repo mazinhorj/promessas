@@ -21,3 +21,37 @@
   font-size: 1rem;
   padding: .4rem;
 }
+
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn_l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  padding: .4rem;
+  background-color: transparent;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.btn_l:hover {
+  transition: .4s;
+  opacity: 1;
+}
+
+.btn_l svg {
+  font-size: 1.4rem;
+}
