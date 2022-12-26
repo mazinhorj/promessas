@@ -1,0 +1,59 @@
+.versiculos {
+  background-color: transparent;
+  padding: 2rem 0;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.versiculos h1, .versiculos h2 {
+  font-size: 2rem;
+}
+
+.versiculo {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.versiculo p {
+  font-size: 2.4rem;
+}
+
+.versiculo span {
+  font-size: 1.8rem;
+  text-align: right;
+
+}
+
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  padding: .4rem;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.btn:hover {
+  transition: .4s;
+  opacity: 1;
+}
+
+.btn svg {
+  font-size: 1.2rem;
+}
