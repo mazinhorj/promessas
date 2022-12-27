@@ -1,9 +1,18 @@
+type LoginProps = {
+  loadUser: (userName: string) => Promise<void>;
+};
+
 import classes from "./Login.module.css";
 import { BsKeyFill } from 'react-icons/bs';
-import { useNavigate } from "react-router-dom";
+import { useState, KeyboardEvent } from "react";
 
-const Login = () => {
-  const navigate = useNavigate();
+const Login = ({ loadUser }: LoginProps) => {
+  const [userName, setUserName] = useState("");
+  const handleKeyDown = (e: KeyboardEvent) => {
+    if (e.key === "Enter") {
+      loadUser(userName);
+    }
+  };
 
     return (
       <div>
@@ -15,10 +24,16 @@ const Login = () => {
               id="name"
               placeholder="Digite seu nome"
               required
+              onChange={(e) => setUserName(e.target.value)}
+              onKeyDown={handleKeyDown}
             />
           </div>
           <div className={classes.btns}>
-            <button className={classes.btn_l} type="button" onClick={() => navigate('/versiculos')}>
+            <button
+              className={classes.btn_l}
+              type="button"
+              onClick={() => loadUser(userName)}
+            >
               Entrar <BsKeyFill />
             </button>
           </div>

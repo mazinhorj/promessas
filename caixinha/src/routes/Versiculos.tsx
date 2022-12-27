@@ -17,7 +17,7 @@ const Versiculos = () => {
   
   return (
     <div>
-      <div className={classes.versi}>
+      <div className={classes.versiculo}>
         <User />
         {/* <Loader /> */}
         <Versiculo />
