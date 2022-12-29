@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 //paginas
 import Home from "./routes/Home";
-import Versiculos from "./routes/Versiculos";
+import Caixinha from "./routes/Caixinha";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/versiculos",
-        element: <Versiculos />,
+        path: "/caixinha/:name",
+        element: <Caixinha />,
       },
     ],
   },

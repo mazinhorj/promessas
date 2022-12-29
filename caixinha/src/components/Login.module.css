@@ -29,6 +29,10 @@
   gap: 1rem;
 }
 
+.btns a {
+  text-decoration: none;
+}
+
 .btn_l {
   display: flex;
   align-items: center;

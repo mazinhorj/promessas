@@ -4,3 +4,7 @@
   margin-top: 2rem;
   gap: 1rem;
 }
+
+.user span {
+  text-transform: capitalize;
+}
