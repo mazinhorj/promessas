@@ -100,157 +100,157 @@ const data = [
 				index: 20,
 				versiculo: "E criou Deus o homem à sua imagem; à imagem de Deus o criou; macho e fêmea os criou.",
 				fonte: "Gênesis 1:27",
-			}
-			// {
-			// 	index: 21,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 22,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 23,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 24,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 25,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 26,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 27,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 28,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 29,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 30,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 31,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 32,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 33,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 34,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 35,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 36,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 37,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 38,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 39,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 40,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 41,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 42,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 43,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 44,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 45,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 46,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 47,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 48,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 49,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
-			// {
-			// 	index: 50,
-			// 	versiculo: "",
-			// 	fonte: "",
-			// },
+			},
+			{
+				index: 21,
+				versiculo: "E disse Deus: Façamos o homem à nossa imagem, conforme a nossa semelhança; e domine sobre os peixes do mar, e sobre as aves dos céus, e sobre o gado, e sobre toda a terra, e sobre todo réptil que se move sobre a terra.",
+				fonte: "Gênesis 1:26",
+			},
+			{
+				index: 22,
+				versiculo: "E disse o Senhor, em visão, a Paulo: Não temas, mas fala e não te cales.",
+				fonte: "Atos 18:9",
+			},
+			{
+				index: 23,
+				versiculo: "E disse-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para perdão dos pecados, e recebereis o dom do Espírito Santo.",
+				fonte: "Atos 2:38",
+			},
+			{
+				index: 24,
+				versiculo: "E disse-me: A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza. De boa vontade, pois, me gloriarei nas minhas fraquezas, para que em mim habite o poder de Cristo.",
+				fonte: "2 Coríntios 12:9",
+			},
+			{
+				index: 25,
+				versiculo: "E em nenhum outro há salvação, porque também debaixo do céu nenhum outro nome há, dado entre os homens, pelo qual devamos ser salvos.",
+				fonte: "Atos 4:12",
+			},
+			{
+				index: 26,
+				versiculo: "E ficou ali um ano e seis meses, ensinando entre eles a palavra de Deus.",
+				fonte: "Atos 18:11",
+			},
+			{
+				index: 27,
+				versiculo: "E Jesus disse-lhe: Amarás o Senhor, teu Deus, de todo o teu coração, e de toda a tua alma, e de todo o teu pensamento.",
+				fonte: "Mateus 22:37",
+			},
+			{
+				index: 28,
+				versiculo: "E não vos conformeis com este mundo, mas transformai-vos pela renovação do vosso entendimento, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.",
+				fonte: "Romanos 12:2",
+			},
+			{
+				index: 29,
+				versiculo: "E sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus, daqueles que são chamados por seu decreto.",
+				fonte: "Romanos 8:28",
+			},
+			{
+				index: 30,
+				versiculo: "E, chegando-se Jesus, falou-lhes, dizendo: É-me dado todo o poder no céu e na terra.",
+				fonte: "Mateus 28:18",
+			},
+			{
+				index: 31,
+				versiculo: "E, tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor e não aos homens.",
+				fonte: "Colossenses 3:23",
+			},
+			{
+				index: 32,
+				versiculo: "Ele te declarou, ó homem, o que é bom; e que é o que o Senhor pede de ti, senão que pratiques a justiça, e ames a beneficência, e andes humildemente com o teu Deus?",
+				fonte: "Miquéias 6:8",
+			},
+			{
+				index: 33,
+				versiculo: "Ensinando-as a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até à consumação dos séculos. Amém!",
+				fonte: "Mateus 28:20",
+			},
+			{
+				index: 34,
+				versiculo: "Já estou crucificado com Cristo; e vivo, não mais eu, mas Cristo vive em mim; e a vida que agora vivo na carne vivo-a na fé do Filho de Deus, o qual me amou e se entregou a si mesmo por mim.",
+				fonte: "Gálatas 2:20",
+			},
+			{
+				index: 35,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 36,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 37,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 38,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 39,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 40,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 41,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 42,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 43,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 44,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 45,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 46,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 47,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 48,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 49,
+				versiculo: "",
+				fonte: "",
+			},
+			{
+				index: 50,
+				versiculo: "",
+				fonte: "",
+			},
 		],
 	},
 ];
