@@ -25,7 +25,7 @@ const Login = () => {
             name="name"
             id="name"
             placeholder="Digite seu nome"
-            value={"" || name}
+            value={name || ""}
             onChange={(e) => setName(e.target.value)}
             onKeyDown={handleKeyDown}
           />

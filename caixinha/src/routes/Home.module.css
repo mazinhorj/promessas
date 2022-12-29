@@ -1,11 +1,11 @@
 .app_home {
-  width: 500px;
+  width: 400px;
   height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 auto;
   background-color: #3d0808;
   color: goldenrod;
@@ -13,6 +13,6 @@
 }
 
 .app_home h2 svg {
-  margin-top: 2rem;
+  margin-top: 1.6rem;
 }
 
