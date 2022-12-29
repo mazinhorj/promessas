@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 import { FormEvent, useState } from "react";
 
 const Versiculo = () => {
-  
   const navigate = useNavigate();
 
   const umVerso = () => {
@@ -27,26 +26,27 @@ const Versiculo = () => {
   const [novoVerso, setNovoVerso] = useState(completo.versiculo);
   const [novaFonte, setNovaFonte] = useState(completo.fonte);
 
-  const copiar = () => {
+  const [btnCopiar, setBtnCopiar] = useState("Copiar");
+
+  const copiar = (e: FormEvent) => {
+    if (e) e.preventDefault();
+    setBtnCopiar("Copiado");
+    setTimeout(() => {
+      setBtnCopiar("Copiar");
+    }, 2000);
     const texto = `"${completo.versiculo}" \n (${completo.fonte})`;
     navigator.clipboard.writeText(texto);
     console.log(texto);
     console.log("copiado");
-    return texto;
   };
 
-  // const compTexto = copiar();
-
   const novos = (e: FormEvent) => {
-    
     if (e) e.preventDefault();
-    
+
     const novoCompleto = umVerso();
     setNovoVerso(novoCompleto.versiculo);
     setNovaFonte(novoCompleto.fonte);
-    console.log(novoVerso);
-    console.log(novaFonte);
-    return
+    return;
   };
 
   return (
@@ -56,8 +56,8 @@ const Versiculo = () => {
         <span>{completo.fonte}</span>
       </div>
       <div className={classes.btns}>
-        <button className={classes.btn} onClick={copiar}>
-          Copiar <MdContentCopy />
+        <button className={classes.btn} onClick={(e) => copiar(e)}>
+          {btnCopiar} <MdContentCopy />
         </button>
         <button className={classes.btn} onClick={() => navigate("/")}>
           Fechar <AiFillLock />
