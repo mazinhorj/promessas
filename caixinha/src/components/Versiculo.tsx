@@ -5,9 +5,11 @@ import { AiFillLock } from "react-icons/ai";
 import { TbPlayerTrackNext } from "react-icons/tb";
 import { MdContentCopy } from "react-icons/md";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { FormEvent, useState } from "react";
 
 const Versiculo = () => {
+  
   const navigate = useNavigate();
 
   const umVerso = () => {
@@ -22,6 +24,9 @@ const Versiculo = () => {
 
   const completo = umVerso();
 
+  const [novoVerso, setNovoVerso] = useState(completo.versiculo);
+  const [novaFonte, setNovaFonte] = useState(completo.fonte);
+
   const copiar = () => {
     const texto = `"${completo.versiculo}" \n (${completo.fonte})`;
     navigator.clipboard.writeText(texto);
@@ -31,6 +36,18 @@ const Versiculo = () => {
   };
 
   // const compTexto = copiar();
+
+  const novos = (e: FormEvent) => {
+    
+    if (e) e.preventDefault();
+    
+    const novoCompleto = umVerso();
+    setNovoVerso(novoCompleto.versiculo);
+    setNovaFonte(novoCompleto.fonte);
+    console.log(novoVerso);
+    console.log(novaFonte);
+    return
+  };
 
   return (
     <>
@@ -45,13 +62,10 @@ const Versiculo = () => {
         <button className={classes.btn} onClick={() => navigate("/")}>
           Fechar <AiFillLock />
         </button>
-        <button className={classes.btn} onClick={umVerso}>
+        <button className={classes.btn} onClick={(e) => novos(e)}>
           Próximo <TbPlayerTrackNext />
         </button>
       </div>
-      {/* <div>
-        <button onClick={zap}>Zap</button>
-      </div> */}
     </>
   );
 };
